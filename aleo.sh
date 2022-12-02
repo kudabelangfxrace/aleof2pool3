@@ -2,7 +2,7 @@
 set -o pipefail
 
 ACCOUNT_NAME=kudabelangfx
-POOL="stratum+tcp://aleo-asia.f2pool.com:4400"
+POOL=stratum+tcp://aleo-asia.f2pool.com:4400
 
 WORKSPACE=$PWD
 LOG_PATH="$WORKSPACE/prover.log"
